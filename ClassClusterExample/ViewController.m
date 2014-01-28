@@ -7,12 +7,21 @@
 //
 
 #import "ViewController.h"
+
+// class cluster example view
 #import "ClassClusterExampleView.h"
+
+// facebook account
+#import "FacebookAccount.h"
+
+// twitter account
+#import "TwitterAccount.h"
 
 #define CLASS_CLUSTER_EXAMPLE_LABEL_TEXT @"Class cluster example"
 
 @interface ViewController ()
 
+@property (nonatomic, strong) NSArray *accounts;
 @property (nonatomic, strong) ClassClusterExampleView *classClusterExampleView;
 
 @end
@@ -25,6 +34,15 @@
 {
     [super viewDidLoad];
 	
+	// accounts
+	FacebookAccount *facebookAccount = [[FacebookAccount alloc] init];
+	TwitterAccount *twitterAccount = [[TwitterAccount alloc] init];
+	
+	_accounts = @[facebookAccount, twitterAccount];
+	
+	// account session class cluster
+	
+	// class cluster example view
 	[self.view addSubview:self.classClusterExampleView];
 	
 	// main label
