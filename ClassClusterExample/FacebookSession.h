@@ -1,5 +1,5 @@
 //
-//  AccountSession.h
+//  FacebookSession.h
 //  ClassClusterExample
 //
 //  Created by Troy Chmieleski on 1/28/14.
@@ -7,16 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AccountSession.h"
 
-// account
-#import "Account.h"
+@interface FacebookSession : AccountSession
 
-/**
- *  Account session class cluster example
- */
-@interface AccountSession : NSObject
-
-- (id)initWithAccount:(id <Account>)account;
 - (void)printDescription;
 
 @end

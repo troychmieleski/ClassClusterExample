@@ -24,6 +24,8 @@
 		05369D681898713A00272489 /* FacebookAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D671898713A00272489 /* FacebookAccount.m */; };
 		05369D6B1898714A00272489 /* TwitterAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D6A1898714A00272489 /* TwitterAccount.m */; };
 		05369D711898736E00272489 /* AccountSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D701898736E00272489 /* AccountSession.m */; };
+		05369D751898771C00272489 /* FacebookSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D741898771C00272489 /* FacebookSession.m */; };
+		05369D781898772900272489 /* TwitterSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D771898772900272489 /* TwitterSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,11 @@
 		05369D6A1898714A00272489 /* TwitterAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAccount.m; sourceTree = "<group>"; };
 		05369D6F1898736E00272489 /* AccountSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSession.h; sourceTree = "<group>"; };
 		05369D701898736E00272489 /* AccountSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSession.m; sourceTree = "<group>"; };
+		05369D721898758D00272489 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		05369D731898771C00272489 /* FacebookSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSession.h; sourceTree = "<group>"; };
+		05369D741898771C00272489 /* FacebookSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookSession.m; sourceTree = "<group>"; };
+		05369D761898772900272489 /* TwitterSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSession.h; sourceTree = "<group>"; };
+		05369D771898772900272489 /* TwitterSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +203,7 @@
 				05369D671898713A00272489 /* FacebookAccount.m */,
 				05369D691898714A00272489 /* TwitterAccount.h */,
 				05369D6A1898714A00272489 /* TwitterAccount.m */,
+				05369D721898758D00272489 /* Account.h */,
 			);
 			name = Account;
 			sourceTree = "<group>";
@@ -205,6 +213,10 @@
 			children = (
 				05369D6F1898736E00272489 /* AccountSession.h */,
 				05369D701898736E00272489 /* AccountSession.m */,
+				05369D731898771C00272489 /* FacebookSession.h */,
+				05369D741898771C00272489 /* FacebookSession.m */,
+				05369D761898772900272489 /* TwitterSession.h */,
+				05369D771898772900272489 /* TwitterSession.m */,
 			);
 			name = "Account Session";
 			sourceTree = "<group>";
@@ -306,11 +318,13 @@
 			files = (
 				05369D5A189868B700272489 /* ViewController.m in Sources */,
 				05369D6B1898714A00272489 /* TwitterAccount.m in Sources */,
+				05369D751898771C00272489 /* FacebookSession.m in Sources */,
 				05369D371898683F00272489 /* AppDelegate.m in Sources */,
 				05369D681898713A00272489 /* FacebookAccount.m in Sources */,
 				05369D331898683F00272489 /* main.m in Sources */,
 				05369D711898736E00272489 /* AccountSession.m in Sources */,
 				05369D5D18986B9100272489 /* ClassClusterExampleView.m in Sources */,
+				05369D781898772900272489 /* TwitterSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

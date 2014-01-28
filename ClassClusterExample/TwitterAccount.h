@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TwitterAccount : NSObject
+// account
+#import "Account.h"
+
+@interface TwitterAccount : NSObject <Account>
 
 @end

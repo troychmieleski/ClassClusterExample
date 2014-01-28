@@ -1,5 +1,5 @@
 //
-//  FacebookAccount.h
+//  Account.h
 //  ClassClusterExample
 //
 //  Created by Troy Chmieleski on 1/28/14.
@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-// account
-#import "Account.h"
-
-@interface FacebookAccount : NSObject <Account> 
+@protocol Account <NSObject>
 
 @end

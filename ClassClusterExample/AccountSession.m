@@ -8,6 +8,37 @@
 
 #import "AccountSession.h"
 
+// facebook account
+#import "FacebookAccount.h"
+
+// twitter account
+#import "TwitterAccount.h"
+
+// facebook session
+#import "FacebookSession.h"
+
+#import "TwitterSession.h"
+
+// twitter session
+
 @implementation AccountSession
+
+- (id)initWithAccount:(id <Account>)account {
+	self = nil;
+	
+	if ([account isKindOfClass:[FacebookAccount class]]) {
+		self = [[FacebookSession alloc] init];
+	}
+	
+	else if ([account isKindOfClass:[TwitterAccount class]]) {
+		self = [[TwitterSession alloc] init];
+	}
+	
+	return self;
+}
+
+- (void)printDescription {
+	[self doesNotRecognizeSelector: _cmd];
+}
 
 @end
