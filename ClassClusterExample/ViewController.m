@@ -7,17 +7,39 @@
 //
 
 #import "ViewController.h"
+#import "ClassClusterExampleView.h"
+
+#define CLASS_CLUSTER_EXAMPLE_LABEL_TEXT @"Class cluster example"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) ClassClusterExampleView *classClusterExampleView;
 
 @end
 
 @implementation ViewController
 
+#pragma mark - View controller
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+	[self.view addSubview:self.classClusterExampleView];
+	
+	// main label
+	[self.classClusterExampleView setMainLabelLetterpressText:CLASS_CLUSTER_EXAMPLE_LABEL_TEXT];
+}
+
+#pragma mark - Class cluster example view
+
+- (ClassClusterExampleView *)classClusterExampleView {
+	if (!_classClusterExampleView) {
+		_classClusterExampleView = [[ClassClusterExampleView alloc] initWithFrame:self.view.frame];
+		[_classClusterExampleView setBackgroundColor:[UIColor whiteColor]];
+	}
+	
+	return _classClusterExampleView;
 }
 
 - (void)didReceiveMemoryWarning

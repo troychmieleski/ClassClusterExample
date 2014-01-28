@@ -20,6 +20,7 @@
 		05369D4A1898683F00272489 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05369D481898683F00272489 /* InfoPlist.strings */; };
 		05369D4C1898683F00272489 /* ClassClusterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D4B1898683F00272489 /* ClassClusterExampleTests.m */; };
 		05369D5A189868B700272489 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D59189868B700272489 /* ViewController.m */; };
+		05369D5D18986B9100272489 /* ClassClusterExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05369D5C18986B9100272489 /* ClassClusterExampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		05369D4B1898683F00272489 /* ClassClusterExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassClusterExampleTests.m; sourceTree = "<group>"; };
 		05369D58189868B700272489 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		05369D59189868B700272489 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05369D5B18986B9100272489 /* ClassClusterExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassClusterExampleView.h; sourceTree = "<group>"; };
+		05369D5C18986B9100272489 /* ClassClusterExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassClusterExampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 		05369D561898688000272489 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				05369D5B18986B9100272489 /* ClassClusterExampleView.h */,
+				05369D5C18986B9100272489 /* ClassClusterExampleView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				05369D5A189868B700272489 /* ViewController.m in Sources */,
 				05369D371898683F00272489 /* AppDelegate.m in Sources */,
 				05369D331898683F00272489 /* main.m in Sources */,
+				05369D5D18986B9100272489 /* ClassClusterExampleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				05369D511898683F00272489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05369D521898683F00272489 /* Build configuration list for PBXNativeTarget "ClassClusterExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				05369D541898683F00272489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
