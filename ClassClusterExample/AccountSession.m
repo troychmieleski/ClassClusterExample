@@ -23,6 +23,10 @@
 
 @implementation AccountSession
 
+- (id)init {
+	return nil;
+}
+
 - (id)initWithAccount:(id <Account>)account {
 	self = nil;
 	
